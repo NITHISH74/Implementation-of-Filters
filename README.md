@@ -9,12 +9,8 @@ Anaconda - Python 3.7
 ### Step 1:
 Import cv2, matplotlib.py libraries and read the saved images using cv2.imread().
 
-
-
 ### Step 2:
 Convert the saved BGR image to RGB using cvtColor().
-
-
 ### Step 3:
 By using the following filters for image smoothing:filter2D(src, ddepth, kernel), Box filter,Weighted Average filter,GaussianBlur(src, ksize, sigmaX[, dst[, sigmaY[, borderType]]]), medianBlur(src, ksize),and for image sharpening:Laplacian Kernel,Laplacian Operator.
 ### Step 4:
@@ -26,9 +22,10 @@ Plot the images of the original one and the filtered one using plt.figure() and 
 
 
 ## Program:
-### Developed By   :NITHISHWAR S
-### Register Number: 212221230071
+
 ```
+Developed By   :NITHISHWAR S
+Register Number: 212221230071
 import cv2
 import matplotlib.pyplot as plt
 import numpy as np
@@ -139,23 +136,17 @@ i) Using Averaging Filter
 ii) Using Weighted Averaging Filter
 ![image](https://user-images.githubusercontent.com/94164665/168848366-8cfe6635-e172-47e9-8d52-2485cad59200.png)
 
-
 iii) Using Weighted Averaging Filter
 ![image](https://user-images.githubusercontent.com/94164665/168848483-f217c268-2f44-4901-87b4-38f8ed05aaa2.png)
 iv) Using Median Filter
 ![image](https://user-images.githubusercontent.com/94164665/168848602-c5727a71-ef03-4b7e-906b-0316fdfecce2.png)
 
-
 ### 2. Sharpening Filters
-</br>
-
 i) Using Laplacian Kernal
 ![image](https://user-images.githubusercontent.com/94164665/168848665-60c56bb7-b949-48d4-83e2-797553ddce06.png)
 
-
 ii) Using Laplacian Operator
 ![image](https://user-images.githubusercontent.com/94164665/168848777-90beee5c-a93d-4c52-94bd-f7dbe1348cfa.png)
-
 
 ## Result:
 Thus the filters are designed for smoothing and sharpening the images in the spatial domain.
